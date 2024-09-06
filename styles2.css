@@ -10,3 +10,6 @@
     --white:white ;
     --max-width: 1200px;
 }
+
+.nav__logo span {
+    color: var(--secondary-color);

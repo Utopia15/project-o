@@ -85,7 +85,7 @@ header {
 
 .link a {
     padding: 0.5;
-    color: var(--primary-color-light);
+    color: black;
 }
 
 .link a:hover {
