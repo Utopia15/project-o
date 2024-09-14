@@ -9,6 +9,24 @@
     color: orange;
 }
 
+.nav-menu ul{
+    display: flex;
+
+}
+.nav-menu ul li{
+    list-style-type: none;
+}
+.nav-menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    margin: 0 25px;
+
+}
+.link:hover, .active{
+    border-bottom: 2px solid #fff;
+}
 body{
     background-color: #584444;
 }
