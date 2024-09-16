@@ -11,19 +11,13 @@
     --max-width: 1200px;
 }
 header {
+    background-image:url("assets/1.jpeg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
     width: auto;
+    height: 100%;
     font-size: 2rem;
-}
-.nav__bar{
-    display: flex;
-    flex-direction: row;
-    gap: 57rem;
-    font-size: x-large;
-    position: fixed;
-    background-color: var(--text-light);
-    top:0;
-    width: 100vw;
-    
 }
 .nav__logo span {
     color: var(--secondary-color);
@@ -181,20 +175,3 @@ a {
     color: var(--white);
     cursor: pointer;
 }
-<<<<<<< HEAD
-.service__grid {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-}
-
-.service__card{
-    text-align: center;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    cursor: pointer;
-    overflow: hidden;
-}
-=======
->>>>>>> 22e7760978bb582b09f5808e205af9698475f734
